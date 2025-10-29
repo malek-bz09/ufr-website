@@ -152,3 +152,31 @@ html, body {
   margin-top: auto;
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* stack logo and menu */
+    text-align: center;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .affiche {
+    padding: 100px 20px; /* less padding on phone */
+    font-size: 24px;
+    height: auto;
+  }
+
+  #a-content {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #a-img {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+
